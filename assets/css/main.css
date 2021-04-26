@@ -1,0 +1,350 @@
+/* common css start*/
+html{
+    scroll-behavior: smooth
+}
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+
+}
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+h4{
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.p-black{
+  color: #000;
+}
+.p-white{
+    color: #fff;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pt-200{
+    padding-top: 200px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pb-200{
+    padding-bottom: 200px;
+}
+.h-100{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.bg{
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+    position: relative;
+}
+.bg::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    opacity: .65;
+}
+
+/* common css end*/
+
+
+/* button css start*/
+
+.box-btn{
+    background-color: transparent;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0 5px;
+    border: 2px solid #fff;
+    transition: .5s;
+}
+.box-btn:hover{
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+/* button css end*/
+
+/*header css start*/
+
+
+.header-area {
+    position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+.nav-item.active a , .nav-item a{
+	font-size: 18px;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 0 5px;
+	padding:6px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-item.active a{
+    color: #00bfa5;
+}
+.nav-item a{
+    color: #fff;
+}
+.nav-item a:hover {
+    color: #00bfa5;
+}
+.nav-item.box-btn:hover, .welcome-content .box-btn:hover{
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+/*header css end*/
+
+
+/*banner1 css start*/
+
+
+.banner-area {
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-content {
+	margin-top: 250px;
+	margin-bottom: 45px;
+}
+
+
+/*banner1 css end*/
+
+/*welcome css start*/
+
+
+.welcome-area {
+	background-color: #00BFA5;
+}
+.welcome-content {
+	padding: 0 25px;
+}
+.welcome-content h2 {
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.welcome-content p {
+  text-align: justify;
+  text-transform: initial;
+  padding-bottom: 40px;
+}
+.welcome-content .box-btn {
+	padding: 10px 20px;
+}
+.welcome-img {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.single-img {
+	flex-basis: 45%;
+}
+
+
+
+/*welcome css end*/
+
+
+/*banner2 css start*/
+.\32 nd-banner-area {
+    background-attachment: fixed;
+}
+.\32 nd-banner-area-content, .\33 rd-banner-area-content {
+	margin-top: 150px;
+}
+
+/*banner2 css end*/
+
+
+/*services area start*/
+
+
+.service-area {
+    background-color: #00BFA5;
+}
+.section-title {
+	margin-bottom: 50px;
+}
+.single-service {
+  padding: 20px 30px;
+}
+.single-service-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.single-service-content h5 {
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+}
+.service-area-btn{
+    text-align: center;
+}
+.service-area-btn .box-btn {
+	padding: 12px 24px;
+}
+/*services area end*/
+
+
+
+/*banner3 css start*/
+.\33 rd-banner-area {
+	background-attachment: fixed;
+}
+
+
+/*banner3 css starend*/
+
+/*testimonial css start*/
+
+.testimonial-area {
+    background-color: #00BFA5;
+}
+.section-title h2 {
+	text-align: center;
+	margin: ;
+	margin-bottom: 30px;
+}
+.section-title p {
+	text-align: center;
+}
+.testimonial {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 35px;
+    padding: 0 25px;
+    border-bottom: 2px solid #c5c5c5;
+    padding-bottom: 50px;
+}
+.testimonial-icon {
+  flex-basis: 20%;
+}
+.testimonial-icon i {
+	font-size: 70px;
+	color: #fff;
+}
+.testimonial-content {
+  flex-basis: 80%;
+}
+.testimonial-content h3 {
+	font-size: 27px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+
+/*testimonial css end*/
+
+
+/*clients css start*/
+
+.clients-area {
+    background-color: #00BFA5;
+}
+.clients-title h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+.single-client {
+	padding: 25px;
+}
+.single-client img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+/*clients css end*/
+
+
+/*banner3 css start*/
+.\34 th-banner-area{
+	background-attachment: fixed;
+}
+.\34 th-banner-area-content button {
+	padding: 10px 20px;
+	float: right;
+	margin: 30px 150px;
+}
+
+/*banner3 css end*/
+
+
+/*contact ccs start*/
+
+.contact-area{
+    background-color: #00BFA5;
+}
+.contact-link {
+	margin-top: 30px;
+	text-align: center;
+}
+.contact-link i {
+    font-size: 23px;
+    color: #fff;
+    margin: 5px 10px;
+}
+
+/*contact css end*/
+
+
+/*footer css start*/
+
+.footer-area{
+    background-color: #16A085;
+}
+.footer-content {
+	text-align: center;
+	padding: 50px 0;
+}
+
+/*footer css end*/
